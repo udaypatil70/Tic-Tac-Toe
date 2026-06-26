@@ -1,16 +1,64 @@
-# React + Vite
+# 🎮 Tic Tac Toe
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple and interactive **Tic Tac Toe** game built with **React** and **Vite**. The game supports two players, detects winners and draws automatically, and maintains a history of moves for a better gameplay experience.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 https://tic-tac-toe-iota-umber-23.vercel.app/
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 🎲 3×3 game board
+* 👥 Two-player gameplay (X & O)
+* 🏆 Winner detection
+* 🤝 Draw detection
+* 🔄 Reset game
+* 📜 Move history
+* 🎯 Player setup before starting
+* 📱 Responsive and clean UI
 
-## Expanding the Oxlint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+* React.js
+* Vite
+* JavaScript (ES6+)
+* CSS3
+
+## 📂 Project Structure
+
+```text
+tic-tac-toe/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── Board.jsx
+│   │   ├── HistoryList.jsx
+│   │   ├── PlayerSetup.jsx
+│   │   └── Square.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/udaypatil70/Tic-Tac-Toe.git
+cd Tic-Tac-Toe
+npm install
+npm run dev
+```
+
+## 👨‍💻 Author
+
+**Uday Patil**
+
+GitHub: https://github.com/udaypatil70
+
+⭐ If you found this project helpful, consider giving it a star!
